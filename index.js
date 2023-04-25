@@ -1,5 +1,4 @@
 import moment from "moment";
-
-const moment = require("moment");
-const a = new moment();
-console.log(a.format('h :mm:ss a'));
+const myMoment = moment().format('h:mm:ss a');
+;
+console.log(`${myMoment}`);
